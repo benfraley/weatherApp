@@ -1,0 +1,14 @@
+To install:
+
+Simple download these files to your webserver's root directory (/var/www/ for most webservers, see your apache config files)
+All javascript files and css have been included
+
+You will need an accuweather api key for this application to run. You can get one by signing up for an account and creating an app
+at https://developer.accuweather.com/user/me/apps. Click on the app name after creating it and your api key will be displayed. Copy
+and paste that key into line 10 of api/api.php
+
+Example:
+
+    public const apiKey = "<your api key here>";
+
+Enjoy!
